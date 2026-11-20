@@ -171,6 +171,8 @@
             box-shadow: 0 5px 15px var(--shadow);
             border: 1px solid var(--border-color);
             margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
         }
 
         .month-header {
@@ -465,7 +467,7 @@
             
             <div class = "nav-center">
                 <ul class="nav-links" id="navLinks">
-                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About Us</a></li>
                     <li><a href="events.html" class="active">Events</a></li>
                 </ul>
@@ -490,12 +492,7 @@
         
         <!-- Calendar Section -->
         <div class="calendar-container">
-            <div class="month-header">
-                <button id="prev-month">← Previous</button>
-                <h2 id="month-year"></h2>
-                <button id="next-month">Next →</button>
-            </div>
-            <div class="calendar-grid" id="calendar-grid"></div>
+           <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=AGENDA&src=NjU0YjM2Nzg3YjhiNTFhMTI3OTAxN2E2MzVkOGI4NzY3MTE1MzdjNTJlMDM2MjBlMDFkMDZlNDQ2MTlhMTkxY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23f6bf26" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
         
         <!-- Event Details Section -->
